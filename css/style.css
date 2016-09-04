@@ -1,0 +1,186 @@
+/*--------- Estructura del sitio-------*/
+html, body {
+     margin: 0;
+     padding: 0;
+     height: 100%;
+}
+body{
+    font-family: Arial;
+    font-size: 16px;
+    margin-left: 2%;
+}
+h3 { 
+    width:auto;
+    height:30px;
+    padding-left:5px;
+    text-align:left;
+    font-size: 2px;
+}
+h3 a.linkmenu {
+    width:auto;
+    height:14px;
+}
+h2.textocabecera{
+    color:#FFF;
+    padding-bottom:3px;
+    padding-left:10px;
+    padding-top: 18px;
+}
+td {
+    vertical-align: middle;
+    text-align: center;
+    padding: 3px;
+    font-size: 14px;
+}
+.titulo {
+    float: left;
+    height: 100%;
+    width: 300px;
+}
+.logo {
+    float: right;
+    height: 80%;
+    padding-right: 20px;
+    padding-top: 10px;
+    text-align: right;
+    width: 300px;
+}
+.separador_invisible{
+    width:100%;
+    height:20px;
+    float:left;
+}	
+.menu_body {
+    width: auto;
+    height: 55%;
+}
+.parrafo {
+    font-size:13px;
+    text-align:left;
+}	
+.tierra{
+    padding-left:35%;
+    /*Hago los bordes redondeado, sin necesidad de usar imagenes*/
+    border-radius:15px;
+    -moz-border-radius:5px; /* Firefox */
+    -webkit-border-radius:5px; /* Safari y Chrome */ 
+}
+.contenedorFrmIO {
+    width: 400px;
+}            
+.lblFrmIO{
+    float: left;
+    width: 22%;
+    margin-left: 2%;
+}
+.inFrmIO{
+    float: left;
+    margin-left: 5%;
+}
+/* clase error para mostrar errores en formulario (edad/nombre) */ 
+.error { 
+    background: orange; 
+    border: solid 3px red; 
+} 
+.msg { 
+    color: white; /*color fuente mensaje error */ 
+    font-size: 13px; 
+}
+#contenedor {
+     display: table;
+     height: 97%;
+     width: 98%;
+     margin: 10px;
+   }
+#cabecera {
+    width: auto;
+    height: 82px;
+    background-color:#0B6B9C;
+    border-width:0.5px;
+    border-color: #CCC;
+    border-style: solid;
+    padding-left: 1%;
+    font-family: Verdana,Arial,sans-serif;
+    font-size:1.2em;/*30px;*/
+    /*Hago los bordes redondeado, sin necesidad de usar imagenes*/
+    border-radius:5px;
+    -moz-border-radius:5px; /* Firefox */
+    -webkit-border-radius:5px; /* Safari y Chrome */ 
+}
+#cabecera img.logo {
+    float:right; 
+}
+#barizq {
+    width:180px;
+    height:85%;
+    float: left;
+}
+#accordion {
+    height:96%;
+}
+#nombre_empleado{
+    float: right;
+    height: 25px;
+    width: auto;
+    margin-right:1px;
+    border-radius:5px;
+    background: rgba(0, 48, 64, 0.35);
+    
+}
+#nombre_empleado label {
+    padding-left: 10px;
+    
+    font-size: 12px;
+    color: #cccccc;
+}
+#empleado_logueado{
+    margin-right: 10px;
+}
+#map {
+    width: auto; /*84%;*/
+    height: auto;
+    border-width:0px;
+    border-color: #CCC;
+    border-style: solid;
+    background: rgba(232,232,232,0.2);
+    float:left;
+    padding: 50px;
+    /*Hago los bordes redondeado, sin necesidad de usar imagenes*/
+    border-radius:5px;
+    -moz-border-radius:5px; /* Firefox */
+    -webkit-border-radius:5px; /* Safari y Chrome */ 
+}
+#com_login{
+    float:right;
+    width: 84%;
+    height: 170px;
+    line-height: 170px;
+    text-align: center;
+    border-width:1px;
+    border-color: #CCC;
+    border-style: solid;
+}
+#footer {
+    width:100%;
+    height:10px;/*auto; /*20px;*/
+    border-width:0.5px;
+    border-color: #CCC;
+    border-style: solid;
+    float:left;
+    background-color:#0B6B9C;
+    /*Hago los bordes redondeado, sin necesidad de usar imagenes*/
+    border-radius:5px;
+    -moz-border-radius:5px; /* Firefox */
+    -webkit-border-radius:5px; /* Safari y Chrome */ 
+}
+#fecha{
+    width: 65%;
+}
+#IO1, #IO2{
+    width: 15px;
+}
+#btnRegistrar{
+    margin-left: 2%;
+    width: 96%;
+
+}

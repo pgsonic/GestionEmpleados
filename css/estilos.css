@@ -1,0 +1,47 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16/12/2015, 00:46:07
+    Author     : Pablo
+*/
+
+body{
+    font-family: Arial;
+    font-size: 16px;
+    margin-left: 2%;
+}
+div {
+    width: 400px;
+}            
+label{
+    float: left;
+    width: 22%;
+    margin-left: 2%;
+}
+input{
+    float: left;
+    margin-left: 5%;
+}
+#fecha{
+    width: 65%;
+}
+#IO1, #IO2{
+    width: 15px;
+}
+#btnRegistrar{
+    margin-left: 2%;
+    width: 96%;
+
+}
+/* clase error para mostrar errores en formulario (edad/nombre) */ 
+.error { 
+    background: orange; 
+    border: solid 3px red; 
+} 
+.msg { 
+    color: white; /*color fuente mensaje error */ 
+    font-size: 13px; 
+}
