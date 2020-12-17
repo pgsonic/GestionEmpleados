@@ -31,7 +31,7 @@ $bd = new BaseDatos();
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
 
-        <link rel="stylesheet" type="text/css" href="/PruebaEmpleados/css/style.css" />
+        <link rel="stylesheet" type="text/css" href="/GestionEmpleados/css/style.css" />
         <script src="/jquery-ui-1.11.4/external/jquery/jquery.js"></script> 
         <link rel="stylesheet" href="/jquery-ui-1.11.4/jquery-ui.css">
         <script src="/jquery-ui-1.11.4/jquery-ui.js"></script>

@@ -3,12 +3,12 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
 
-        <link rel="stylesheet" type="text/css" href="/PruebaEmpleados/css/style.css" />
-        <link rel="stylesheet" type="text/css" href="/PruebaEmpleados/css/menu.css" />
-        <link href="/PruebaEmpleados/css/jquery-ui.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" type="text/css" href="/GestionEmpleados/css/style.css" />
+        <link rel="stylesheet" type="text/css" href="/GestionEmpleados/css/menu.css" />
+        <link href="/GestionEmpleados/css/jquery-ui.css" rel="stylesheet" type="text/css"/>
 
-        <script src="../jquery/jquery-1.7.2.js"></script>
-        <script src="../jquery/jquery-ui-1.8.21.min.js"></script>
+        <script src="http://code.jquery.com/jquery-1.7.2.js"></script>
+        <script src="/GestionEmpleados/js/jquery-ui-1.8.21/jquery-ui-1.8.21.min.js"></script>
 
         <script> //menu acordeon
                 $(document).ready(function() {
