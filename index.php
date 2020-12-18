@@ -7,30 +7,30 @@
         <link rel="stylesheet" type="text/css" href="/GestionEmpleados/css/menu.css" />
         <link href="/GestionEmpleados/css/jquery-ui.css" rel="stylesheet" type="text/css"/>
 
-        <script src="http://code.jquery.com/jquery-1.7.2.js"></script>
+        <script src="/GestionEmpleados/js/jquery-ui-1.8.21/jquery-1.7.2.js"></script>
         <script src="/GestionEmpleados/js/jquery-ui-1.8.21/jquery-ui-1.8.21.min.js"></script>
 
         <script> //menu acordeon
                 $(document).ready(function() {
                                                 $("#accordion").accordion();
                                                 var tmp= $("#barizq").height();
-												tmp=tmp-200;
+												                        tmp=tmp-200;
                                                 $("#map").css("height",tmp);
                 });
         </script>
 
-        <title>Bienvenido C12 Empleados</TITLE>
+        <title>Bienvenido C12 Empleados</title>
     </head>
     <body>
         <div id="contenedor">
-            <div id="cabecera"> 
+            <div id="cabecera">
                 <!-- <img class="logo" src="/Sigtl/style/Logo.png" alt="logo"/> -->
                 <h2 class="textocabecera"> C12 - Empleados </h2>
             </div>
 
             <span class="separador_invisible"></span>
 
-            <div id="barizq">	
+            <div id="barizq">
                 <div id="accordion">
                     <h3><a class="linkmenu" href="#">Ingreso al Sistema</a></h3>	<!--href="#" es para que al hacer click sobre el link no te envie a ningun lado-->
                     <div class="menu_body">
@@ -44,12 +44,12 @@
                            </form>
                         </p>
                     </div>
-                </div>		
-            </div>		
+                </div>
+            </div>
 
             <div id="map" style="visibility: hidden;">
             </div>
-			
+
 
             <span class="separador_invisible"> </span>
 
@@ -58,4 +58,4 @@
 
         </div>
     </body>
-</html>	
+</html>

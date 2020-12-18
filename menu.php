@@ -18,16 +18,16 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 <html lang="es-ar">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
-	
+
 	<link rel="stylesheet" type="text/css" href="/GestionEmpleados/css/style.css" />
         <link rel="stylesheet" type="text/css" href="/GestionEmpleados/css/menu.css" />
         <link href="/GestionEmpleados/css/jquery-ui.css" rel="stylesheet" type="text/css"/>
-        
 
-        <script src="../jquery/jquery-1.7.2.js"></script>
-	<script src="../jquery/jquery-ui-1.8.21.min.js"></script>
+
+        <script src="./js/jquery-ui-1.8.21/jquery-1.7.2.js"></script>
+	<script src="./js/jquery-ui-1.8.21/jquery-ui-1.8.21.min.js"></script>
         <script src="./js/menu.js"></script>
-        
+
         <script>
             /*jQuery time*/
                 $(document).ready(function(){
@@ -47,19 +47,19 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     </head>
     <body>
         <?php
-            session_start();        
+            session_start();
         ?>
         <div id="contenedor">
-            <div id="cabecera"> 
+            <div id="cabecera">
                     <h2 class="textocabecera">  C12 - Empleados </h2>
                     <div id="nombre_empleado">
-                        <label>Empleado:</label><label id="empleado_logueado"><?php echo $_SESSION["nombreApellido"];?></label>
+                        <label>Empleado:</label><label id="empleado_logueado"><?php echo $_SESSION["nombres"] ." ". $_SESSION["apellido"];?></label>
                     </div>
             </div>
 
             <span class="separador_invisible"></span>
-            
-            <div id="barizq">	
+
+            <div id="barizq">
                 <div id="accordian">
                         <ul>
                                 <li>
@@ -109,21 +109,21 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
                         </ul>
                 </div>
 <!--
-                 prefix free to deal with vendor prefixes 
+                 prefix free to deal with vendor prefixes
                 <script src="http://thecodeplayer.com/uploads/js/prefixfree-1.0.7.js" type="text/javascript" type="text/javascript"></script>
 
-                 jQuery 
+                 jQuery
                 <script src="http://thecodeplayer.com/uploads/js/jquery-1.7.1.min.js" type="text/javascript"></script>-->
-            </div>		
-	
-            
+            </div>
+
+
             <div id="map">
                 <?php print_r ($_SESSION);?>
             </div>
-            
-            
+
+
             <div id="footer"></div>
 
-            </div>			
+            </div>
     </body>
 </html>

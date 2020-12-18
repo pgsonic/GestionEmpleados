@@ -9,13 +9,13 @@ $empleado = $bd->autenticar($n, $p);
 
 if ($empleado!= "")
 {
-	echo '<h1>Hola '.$empleado.', su acceso esta autorizado!!... <meta http-equiv="Refresh" content="4;url=menu.php"> </h1>';
+	echo '<h1>Hola '.$empleado.', su acceso esta autorizado!!... <meta http-equiv="Refresh" content="1;url=menu.php"> </h1>';
 	return false;
 }
 else
 {
 	echo 'Alguno de los datos suministrados es incorrecto, por favor intente nuevamente...';
-	echo '<meta http-equiv="Refresh" content="4;url=index.php">';
+	echo '<meta http-equiv="Refresh" content="1;url=index.php">';
 	return false;
 }
 ?>
