@@ -7,9 +7,10 @@ $bd = new BaseDatos();
 //si el empleado existe recupero su nombre
 $empleado = $bd->autenticar($n, $p);
 
-if ($empleado!= "")
+if (strlen($empleado)>2)
 {
-	echo '<h1>Hola '.$empleado.', su acceso esta autorizado!!... <meta http-equiv="Refresh" content="1;url=menu.php"> </h1>';
+	header ("Location: menu.php");
+	exit();
 	return false;
 }
 else
