@@ -114,7 +114,7 @@ class DataBase {
     * @param string $mSql a ser ejecutada
     * @return array que en cada posicion contiene un subarray con los datos obtenidos por cada sql, boolean si existio algun problema en la consulta
     *	array(2) { [0]=> array(2) { [0]=> array(1) { ["col1"]=> string(1) "1" } [1]=> array(1) { ["col1"]=> string(1) "2" } }
-    [1]=> array(1) { [0]=> array(1) { ["now"]=> string(29) "2012-02-13 10:09:28.430723-05" } } }
+    * [1]=> array(1) { [0]=> array(1) { ["now"]=> string(29) "2012-02-13 10:09:28.430723-05" } } }
     */
     public function multi_query($mSql){
 

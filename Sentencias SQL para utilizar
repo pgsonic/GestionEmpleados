@@ -1,0 +1,5 @@
+select concat_ws (':', 
+				  extract (hour from current_timestamp), 
+				  extract (minute from current_timestamp), 
+				  extract (second from current_timestamp))
+				  as horacompleta;

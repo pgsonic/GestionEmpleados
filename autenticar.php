@@ -7,7 +7,7 @@ $bd = new BaseDatos();
 //si el empleado existe recupero su nombre
 $empleado = $bd->autenticar($n, $p);
 
-if (strlen($empleado)>2) //Si la longitud del nombre es mayor a 2
+if (strlen($empleado)>2) //Si la longitud del nombre es mayor a 2 o sea el empleado existe
 {
 	header ("Location: menu.php"); //abre el menu principal
 	exit();
